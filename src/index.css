@@ -1,0 +1,271 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+   --primary-color: #2c2c2c; /* Dark gray-black for headers and navbar */
+  --secondary-color: #4b3f2f; /* Brown for accents */
+  /* --accent-color: #8b6f47;  */
+    --accent-color: black;
+  --light-bg: #f8f1e9; /* Off-white for background sections */
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  padding-top: 56px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+
+/* Section styling */
+section {
+  padding: 60px 0;
+  background-color: var(--light-bg);
+}
+
+section.bg-light {
+  background-color: var(--light-bg) !important;
+}
+
+/* Headings */
+h1.display-4,
+h2 {
+  color: var(--primary-color);
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.navbar-dark {
+  background-color: var(--primary-color) !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white !important;
+}
+
+
+.nav-link {
+  /* padding: 8px 15px; */
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  font-family: 'Roboto Slab', sans-serif;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 3px;
+  background-color: #00acea;
+  transition: 0.4s;
+}
+
+.nav-link:hover::before {
+  width: 90%;
+}
+
+.nav-link:hover {
+  color: #00acea;
+}
+
+.dropdown-item {
+  padding: 8px 15px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #333;
+  font-family: 'Roboto Slab', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #00acea;
+  color: white;
+}
+
+/* Card styling for skills, education, experience, projects */
+/* .card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+} */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+.card-title {
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+.card-text,
+.card-subtitle {
+  color: #555;
+}
+
+
+/* .img-fluid {
+  border-radius: 10px;
+  max-height: 400px;
+  object-fit: cover;
+} */
+ .img-fluid {
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Project portfolio card layout */
+#projects .card {
+  margin-bottom: 30px;
+}
+
+#projects .card img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.blockquote {
+  font-style: italic;
+  color: var(--secondary-color);
+  border-left: 4px solid var(--accent-color);
+  padding-left: 15px;
+  margin-top: 20px;
+}
+
+/* Footer styling */
+footer {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  section {
+    padding: 40px 0;
+  }
+
+  h1.display-4 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .img-fluid {
+    max-height: 300px;
+  }
+
+  #projects .card img {
+    max-height: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+
+.social-icon {
+  
+  color: var(--secondary-color); 
+  transition: color 0.3s ease;
+
+}
+
+.social-icon:hover {
+  color: var(--accent-color); 
+}
