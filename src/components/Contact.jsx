@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import ContactImg from "../assets/img/contact.jpg";
+import ContactImg from "../assets/img/contact.JPG";
 import { FaFacebook, FaTelegram, FaLinkedin, FaWhatsapp, FaEnvelope } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";

@@ -1,4 +1,4 @@
-import ExperImg from "../assets/img/exper.jpg";
+import ExperImg from "../assets/img/exper.JPG";
 
 const Experience = () => {
   return (

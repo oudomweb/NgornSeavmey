@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 // import EducationImg from "../assets/img/eduction.jpg"; 
-import Exper from "../assets/img/exper.jpg";
+import Exper from "../assets/img/exper.JPG";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

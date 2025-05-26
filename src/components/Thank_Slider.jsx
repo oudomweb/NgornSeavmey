@@ -1,4 +1,4 @@
-import AboutImg from "../assets/img/about.jpg";
+import AboutImg from "../assets/img/about.JPG";
 const ThankYou = () => {
   return (
     <section id="thank-you" className="py-5 text-center">
