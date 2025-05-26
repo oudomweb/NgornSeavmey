@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import Img1 from "../assets/img/img1.JPG";
 import Img2 from "../assets/img/img2.JPG";
-import Img3 from "../assets/img/img3.JPEG";
+import Exper from "../assets/img/exper.JPG";
+import KonKh from "../assets/img/konkhmer.JPG";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -33,13 +34,13 @@ const ProjectPortfolio = () => {
       title: "Regional Advocacy through MASSA",
       description:
         "Amplified the voices of marginalized communities, especially women, at regional dialogues influencing policy discussions on human rights and democratic space. Contributed to building a resilient regional network of grassroots organizations that challenges restrictive governance and promotes people-led alternatives across Southeast Asia.",
-      image: Img3,
+      image: Exper,
     },
     {
       title: "Regional Advocacy through ASEAN Civil Society Conference / ASEAN People’s Forum (ACSC/APF)",
       description:
         "Advanced gender equality and diverse women’s empowerment as core themes within the largest regional civil society platform, ensuring inclusion of marginalized voices. Helped generate concrete recommendations to ASEAN leaders on inclusive policy-making, contributing to ongoing advocacy for the rights of “hidden” and marginalized communities.",
-      image: Img1,
+      image: KonKh,
     },
   ];
 

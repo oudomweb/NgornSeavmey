@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import Mey from "../assets/img/IMG_7910.webp";
+import Kirirom from "../assets/img/kirirom.PNG";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -25,7 +25,7 @@ const Introduction = () => {
           ngorn.seavmey@gadc.org.kh
         </p>
         <img
-          src={Mey}
+          src={Kirirom}
           alt="Empowerment"
           className="img-fluid rounded my-4"
           style={{ maxWidth: "500px", width: "100%", height: "auto", maxHeight: "400px", objectFit: "cover" }}
