@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import Img1 from "../assets/img/img1.JPG";
 import Img2 from "../assets/img/img2.JPG";
-import Exper from "../assets/img/exper.JPG";
-import KonKh from "../assets/img/konkhmer.JPG";
+import Change from "../assets/img/changeImg.jpg";
+import Img4   from "../assets/img/Img4.JPEG";
+import Img5   from "../assets/img/Img5.JPG";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -22,25 +22,25 @@ const ProjectPortfolio = () => {
         "Successfully empowered over 50+ young women from diverse backgrounds to actively participate in civic and community leadership roles. Increased awareness and advocacy skills among participants, leading to the formation of new youth-led initiatives addressing gender equality and social issues in their communities.",
       quote:
         "“A group of diverse young women, known as change agents, have came together from various backgrounds to form a supportive network, ready to make an impact with their feminist leadership skills.”",
-      image: Img1,
+      image: Img2,
     },
     {
       title: "Capacity Development on Women and Gender: GEDSI Integration",
       description:
         "Enabled six key media organizations and CSOs to integrate GEDSI principles, improving gender-sensitive reporting standards and inclusive organizational policies. Conducted capacity-building that increased awareness and practical application of GEDSI concepts among media professionals and CSO staff.",
-      image: Img2,
+      image: Change,
     },
     {
       title: "Regional Advocacy through MASSA",
       description:
         "Amplified the voices of marginalized communities, especially women, at regional dialogues influencing policy discussions on human rights and democratic space. Contributed to building a resilient regional network of grassroots organizations that challenges restrictive governance and promotes people-led alternatives across Southeast Asia.",
-      image: Exper,
+      image: Img4,
     },
     {
       title: "Regional Advocacy through ASEAN Civil Society Conference / ASEAN People’s Forum (ACSC/APF)",
       description:
         "Advanced gender equality and diverse women’s empowerment as core themes within the largest regional civil society platform, ensuring inclusion of marginalized voices. Helped generate concrete recommendations to ASEAN leaders on inclusive policy-making, contributing to ongoing advocacy for the rights of “hidden” and marginalized communities.",
-      image: KonKh,
+      image: Img5,
     },
   ];
 
