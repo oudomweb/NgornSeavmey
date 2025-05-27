@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <section id="experience" className="py-5 bg-light">
       <div className="container">
-        <h2 className="mb-4"  style={{textAlign : "center"}}>Work Experience</h2>
+        <h2 className="mb-4"  style={{textAlign : "center", fontFamily: '"Roboto Slab", sans-serif'}}>Work Experience</h2>
         <div className="row">
           <div className="col-md-4 mb-4">
             <div className="card h-100">

@@ -16,9 +16,9 @@ const Contact = () => {
   return (
     <section id="contact" className="py-5 bg-light">
       <div className="container text-center">
-        <h2 className="mb-4">Contact Me</h2>
-        <p className="lead">Email: ngorn.seavmey@gadc.org.kh</p>
-        <p className="lead"> <FaWhatsapp /> +855 969698656</p>
+        <h2 className="mb-4" style={{fontFamily: '"Roboto Slab", sans-serif'}}>Contact Me</h2>
+        <p className="lead" style={{marginLeft : "15px"}}><FaEnvelope />  ngorn.seavmey@gadc.org.kh</p>
+        <p className="lead" style={{marginRight: "85px"}}> <FaWhatsapp /> +855 969698656</p>
         <div className="d-flex justify-content-center gap-4 my-4">
           <a
             href="https://www.facebook.com/yourprofile"

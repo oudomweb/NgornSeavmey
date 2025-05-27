@@ -12,7 +12,9 @@ import Navbar from './layout/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  
+//   useEffect(() => {
+//   AOS.init({ duration: 8000 });
+// }, []);
 
   return (
        <div>

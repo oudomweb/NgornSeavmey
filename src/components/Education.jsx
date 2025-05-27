@@ -16,7 +16,7 @@ const Education = () => {
   return (
     <section id="education" className="py-5">
       <div className="container">
-        <h2 style={{textAlign : "center"}} className="mb-4" data-aos="fade-down">
+        <h2 style={{textAlign : "center", fontFamily: '"Roboto Slab", sans-serif'}} className="mb-4" data-aos="fade-down">
           Education
         </h2>
         <div className="row">

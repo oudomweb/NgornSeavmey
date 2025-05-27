@@ -47,7 +47,7 @@ const ProjectPortfolio = () => {
   return (
     <section id="projects" className="py-5">
       <div className="container">
-        <h2 className="mb-4"  style={{textAlign : "center"}} data-aos="fade-down">Project Portfolio</h2>
+        <h2 className="mb-4"  style={{textAlign : "center", fontFamily: '"Roboto Slab", sans-serif'}} data-aos="fade-down">Project Portfolio</h2>
         {projects.map((project, index) => (
           <div className="card mb-4" key={index} data-aos="fade-up" data-aos-delay={index * 200}>
             <div className="row g-0 align-items-center">

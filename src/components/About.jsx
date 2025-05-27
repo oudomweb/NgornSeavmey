@@ -3,7 +3,7 @@ const AboutMe = () => {
   return (
     <section id="about" className="py-5">
       <div className="container ">
-        <h2 style={{color: "red", textAlign : "center", marginBottom : "10px"}}>About Me</h2>
+        <h2 style={{color: "red", textAlign : "center", marginBottom : "10px", fontFamily: '"Roboto Slab", sans-serif'}}>About Me</h2>
         <div className="row ">
           <div className="col-md-6" style={{textAlign : "center"}}>
             <p>

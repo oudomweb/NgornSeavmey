@@ -15,8 +15,8 @@ const Introduction = () => {
   return (
     <section id="introduction" className="py-5 bg-light">
       <div className="container text-center">
-        <h1 className="display-4 mb-4" data-aos="fade-down">
-          Portfolio
+        <h1  style={{ fontFamily: '"Roboto Slab", sans-serif'}} className="display-4 mb-4" data-aos="fade-down">
+          Welcome to my Profile
         </h1>
         <h2 data-aos="fade-up" data-aos-delay="200">
           Seavmey Ngorn
