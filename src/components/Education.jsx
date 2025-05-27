@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-// import EducationImg from "../assets/img/eduction.jpg"; 
-import Exper from "../assets/img/exper.JPG";
+// import Exper from "../assets/img/exper.JPG";
+import School from "../assets/img/school.JPG";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -16,7 +16,7 @@ const Education = () => {
   return (
     <section id="education" className="py-5">
       <div className="container">
-        <h2 className="mb-4" data-aos="fade-down">
+        <h2 style={{textAlign : "center"}} className="mb-4" data-aos="fade-down">
           Education
         </h2>
         <div className="row">
@@ -38,12 +38,12 @@ const Education = () => {
             </div>
           </div>
         </div>
-        <div className="text-center">
+        <div className="text-center border-2">
           <img
-            src={Exper}
+            src={School}
             alt="Education"
             className="img-fluid rounded"
-            style={{ maxWidth: "100%", height: "auto", maxHeight: "300px", objectFit: "cover" }}
+            style={{ maxWidth: "100%", height: "auto", maxHeight: "500px", objectFit: "cover" }}
             data-aos="zoom-in"
             data-aos-delay="600"
           />

@@ -13,7 +13,7 @@ const PersonalSkills = () => {
   return (
     <section id="skills" className="py-5 bg-light">
       <div className="container">
-        <h2 className="mb-4">Personal Skills</h2>
+        <h2 className="mb-4" style={{textAlign : "center"}}>Personal Skills</h2>
         <div className="row">
           {skills.map((skill, index) => (
             <div className="col-md-3 col-sm-6 mb-3" key={index}>

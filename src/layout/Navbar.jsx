@@ -9,6 +9,7 @@ const Navbar = () => {
     { id: "experience", label: "Experience" },
     { id: "projects", label: "Project Portfolio" },
     { id: "contact", label: "Contact" },
+    { id: "Profile", label: "Profile"},
   ];
 
   const handleNavClick = (id) => {
@@ -17,7 +18,7 @@ const Navbar = () => {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
-
+  
   useEffect(() => {
     // Dynamically load Bootstrap JS for toggle and dropdown functionality
     import("bootstrap/dist/js/bootstrap.bundle.min.js")

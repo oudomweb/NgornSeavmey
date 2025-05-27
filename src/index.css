@@ -144,17 +144,7 @@ h2 {
   color: white;
 }
 
-/* Card styling for skills, education, experience, projects */
-/* .card {
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
 
-.card:hover {
-  transform: translateY(-5px);
-} */
 .card {
   border: none;
   border-radius: 10px;
@@ -176,16 +166,20 @@ h2 {
 }
 
 
-/* .img-fluid {
+.img-fluid {
   border-radius: 10px;
-  max-height: 400px;
   object-fit: cover;
-} */
- .img-fluid {
+  object-fit: cover;
+  width: 400px;
+}
+ /* .img-fluid {
   border-radius: 10px;
   object-fit: cover;
 }
-
+ .img-fluids {
+  border-radius: 10px;
+  object-fit: cover;
+} */
 /* Project portfolio card layout */
 #projects .card {
   margin-bottom: 30px;
