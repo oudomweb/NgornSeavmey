@@ -24,23 +24,6 @@ const ThankYou = () => {
           style={{ maxWidth: "400px", width: "100%" }}
           data-aos="zoom-in"
         />
-
-        <p style={{fontSize : "18px"}} className="text-lg text-gray-300 mb-6 text-dark " data-aos="fade-up">
-          I truly appreciate your time and attention.
-        </p>
-
-        <div
-          className="flex justify-center gap-6 text-cyan-400 text-3xl mt-6"
-          data-aos="fade-up"
-          data-aos-delay="300"
-          style={{color : "black"}}
-        >
-          <FaHeart title="Love"  color="red" fontSize={30}/>
-          <span className="px-2"></span>
-          <FaHandPeace title="Peace" fontSize={30}/>
-            <span className="px-2"></span>
-          <FaSmile title="Happiness"  fontSize={30}/>
-        </div>
       </div>
     </section>
   );
